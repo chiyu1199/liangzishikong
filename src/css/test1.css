@@ -1,0 +1,50 @@
+/* banner */
+.banner_bg{background:#ddd;}
+.banner{width:1224px; height:480px; position:relative; overflow:hidden;}
+.imgbox{width:1224px; height:480px;}
+.imgbox a{position:absolute; width:1224px; height:480px;left:1224px;top:0;}
+.imgbox img{width:1224px; height:480px;}
+.imgbox a:nth-child(1){left:0;}
+
+.banner_ad {width:190px; height:480px; position: absolute; right:0; z-index: 1;}
+.banner_ad img{opacity: .6; height:237px;}
+.banner_ad :nth-child(2){position: absolute; bottom: 0;}
+.banner_ad img:hover{opacity: 1;}
+
+.dot ul{width:200px; height:12px; position: absolute; bottom:20px;left:512px; display:flex; justify-content:space-around;}
+.dot ul li{width:12px; height:12px; border:2px solid #fff; border-radius: 50%; box-sizing:border-box;}
+.dot ul li.active{background:#f00; border:none;}
+
+.main{background: #f5f5f5;}
+
+/* ad_img */
+.ad_img{height:195px; background:#fff; display:flex; justify-content:space-between; margin-bottom:60px;}
+.ad_img a{display:block; height:165px; margin-top:30px;}
+.ad_img a:hover{box-shadow: 0 10px 30px #ddd;}
+
+/* floor */
+.floor_tit{margin:30px 0 25px 0;width:1225px; height:30px;}
+.floor_tit h1{font-weight:normal; font-size:24px; float:left;}
+.floor_tit ul {margin-left:90px; float:left; margin-top:5px;}
+.floor_tit ul li{float:left; margin: 0 10px;}
+.floor_tit ul li a:hover{color:#666;}
+
+.floor_pic_l{float:left; margin-right:10px;}
+.floor_pic_l img:hover{opacity:.9;}
+.floor_pic_r{display: flex; flex-wrap:wrap; align-content:space-between;}
+.floor_pic_r dl{float:left; width:237px; height:280px; background:#fff; margin:0 10px 10px 0;}
+.floor_pic_r dl:nth-child(4n){margin-right:0;}
+.floor_pic_r dl a{display: block; width:227px; height:270px; margin:5px; text-align: center;}
+.floor_pic_r dl a dt{width:227px; height:190px; text-align:center; margin-bottom:20px;}
+.floor_pic_r dl a dt img{vertical-align:middle;}
+.floor_pic_r dl a dt span{display:inline-block; width:0; height:100%; vertical-align:middle;}
+.floor_pic_r dl a dd p{width:200px; white-space: nowrap;overflow: hidden; text-overflow: ellipsis; margin: 0 auto;}
+
+.floor_pic_r dl a {border:1px solid #f00;}
+.floor_pic_r dl a:hover{text-decoration: none; color:#666;}
+.floor_pic_r dl a dd span{color:#f00;}
+
+.floor_nav{width:38px; position:fixed; left:14%; top:50%; margin-top:-253px; border:1px solid #999; background:#fff;}
+.floor_nav li{height:38px;font-size:12px; border-bottom:1px solid #999; text-align: center;}
+.floor_nav li:hover{background:#eee; cursor: pointer;}
+.floor_nav .last{border-bottom:none;}

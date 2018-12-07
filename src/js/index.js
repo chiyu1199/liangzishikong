@@ -22,15 +22,16 @@ require(["../js/libs/config.js"], function(){
 		var $nav = $(".floor_nav");
 		$(window).scroll(function(){
 			var scrollTop = $(this).scrollTop();
-			if(scrollTop >= 700){
+			if(scrollTop >= 800){
 				$nav.fadeIn(500);
 			}else{
 				$nav.fadeOut(500);
 			}
+
+			var index = Math.floor((scrollTop-800)/635);
+			$(".floor_nav li").eq(index).addClass("active").siblings().removeClass("active");
 		})
 			
-		
-
 		//swiper
 		var mySwiper = new Swiper('.swiper-container', {
 			autoplay:{
@@ -42,6 +43,9 @@ require(["../js/libs/config.js"], function(){
 			clickable: true,
 			},
 		});
+
+
+		
 	})
 })
 

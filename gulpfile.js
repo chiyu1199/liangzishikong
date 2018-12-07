@@ -1,15 +1,14 @@
 //复制SRC下的文件,到dist目录中去
 
-let gulp = require("gulp");
-let babel = require("gulp-babel"); //编译JS
-let uglify = require("gulp-uglify"); //压缩JS
-let webserver =  require('gulp-webserver'); //服务器
-let miniCSS = require("gulp-clean-css"); //压缩CSS
-let sass = require("gulp-sass"); //编译sass
-
+const gulp = require("gulp");
+const babel = require("gulp-babel"); //编译JS
+const uglify = require("gulp-uglify"); //压缩JS
+const webserver =  require('gulp-webserver'); //服务器
+const miniCSS = require("gulp-clean-css"); //压缩CSS
+const sass = require("gulp-sass"); //编译sass
 
 gulp.task("refreshJS", function(){
-    gulp.src("./src/js/**/*.js")
+	gulp.src("./src/js/**/*.js")
         .pipe(gulp.dest("./dist/js"));
     gulp.src("./src/pages/**/*.js")
         .pipe( babel({
@@ -55,12 +54,11 @@ gulp.task("watch", ()=>{
 gulp.task("webserver", ["watch", "refresh"] , ()=>{
 	gulp.src('./dist')
 	.pipe(webserver({
-        livereload: true,
-        // https: true ,
-        port: 9999,
-        proxies: [{
-            source: '/listmore',
-            target: 'https://m.lagou.com/listmore.json',
-        }]
+		livereload: true,
+		port: 9999,
+		// proxies: [{
+        //     source: '/listmore',
+        //     target: 'https://m.lagou.com/listmore.json',
+        // }]
 	}));
 })

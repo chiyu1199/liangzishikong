@@ -1,0 +1,25 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+ul, li { list-style:none; } 
+body { color:#333; font:14px/20px "微软雅黑","宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+a { color:#00f; text-decoration:none; }
+a:hover {text-decoration:none;}
+
+.layout {width:1225px; margin:0 auto;}
+
+.logo{ margin-top:40px;}
+
+.login{margin-top:100px;
+    .img{width:638px; height:458px; float:left; margin-right: 70px;}
+    .zhuce{ float:left; width:437px; height:54px; margin-top:20px;
+        h2{ font-size:24px; font-weight: normal; margin-right:90px; float:left;}
+        p {font-size:12px; } 
+    
+        form{margin-top:40px;
+            span{width:70px; text-align: left; display: inline-block;}
+            input{width:355px; height:40px; margin-bottom:20px;}
+            .btn{height:35px; font-size:20px; color:#fff; background:#0957A9; border:none; margin-left:73px; cursor: pointer;}
+            p{text-align: right;}
+        }
+    }
+}

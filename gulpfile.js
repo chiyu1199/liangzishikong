@@ -8,14 +8,14 @@ const miniCSS = require("gulp-clean-css"); //压缩CSS
 const sass = require("gulp-sass"); //编译sass
 
 gulp.task("refreshJS", function(){
-	gulp.src("./src/js/**/*.js")
-        .pipe(gulp.dest("./dist/js"));
-    gulp.src("./src/pages/**/*.js")
+	gulp.src("./src/js/libs/*.js")
+        .pipe(gulp.dest("./dist/js/libs"));
+    gulp.src("./src/js/myjs/**/*.js")
         .pipe( babel({
             presets: ["@babel/env"]
         }) )
         .pipe( uglify() )
-        .pipe( gulp.dest("./dist/pages") )
+        .pipe( gulp.dest("./dist/js/myjs") )
 });
 
 gulp.task("refreshCSS", ()=>{
@@ -40,14 +40,20 @@ gulp.task("refreshStatic", function(){
 		.pipe( gulp.dest("./dist/static") )
 })
 
+gulp.task("refreshData", function(){
+	gulp.src("./src/data/**/*.*")
+		.pipe( gulp.dest("./dist/data") )
+})
+
 //构建项目
-gulp.task("refresh", ["refreshJS", "refreshCSS", "refreshSCSS", "refreshHTML", "refreshStatic"]);
+gulp.task("refresh", ["refreshJS", "refreshCSS", "refreshSCSS", "refreshHTML", "refreshStatic", "refreshData"]);
 
 gulp.task("watch", ()=>{
 	gulp.watch("./src/**/*.html", ["refreshHTML"]);
 	gulp.watch("./src/**/*.js", ["refreshJS"]);
 	gulp.watch("./src/**/*.scss", ["refreshSCSS"]);
 	gulp.watch("./src/**/*.css", ["refreshCSS"]);
+	gulp.watch("./src/**/*.*", ["refreshData"]);
 })
 
 //本地服务器

@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Document</title>  
     <link rel="stylesheet" href="../css/css.css">
-    <link rel="stylesheet" href="../css/test.css">
+    <link rel="stylesheet" href="../css/shop_list.css">
+ 
 </head>
+
 <body>
     <!-- header start -->
     <header>
@@ -22,13 +24,13 @@
                     </select>
                 </div>
                 <div class="login">
-                    <a href="#" style="color:red;">Hi.请登录</a>
-                    <a href="#">免费注册</a>
+                    <a href="login.html" style="color:red;">Hi.请登录</a>
+                    <a href="registered.html">免费注册</a>
                 </div>
                 <div class="header_r">
                     <ul>
                         <li><a href="">在线客服 </a>&nbsp;&nbsp;</li>
-                        <li><a href="">我的订单 </a>&nbsp;|&nbsp;&nbsp;</li>
+                        <li><a href="VIPcenter.html">我的订单 </a>&nbsp;|&nbsp;&nbsp;</li>
                         <li><a href="">供应商入驻 </a>&nbsp;|&nbsp;&nbsp;</li>
                     </ul>
                 </div>
@@ -36,22 +38,22 @@
         </div>
 
         <div class="header_c layout">
-            <div class="logo">
-                <a href="#"> <img src="images/logo.png" /></a>
-            </div>
-            <!--搜索框start-->
-            <div class="search">
-                <form action="">
-                    <input type="text" value="" placeholder="搜索关键字"/>
-                    <button class="btn1" type="submit" ></button>
-                </form>
-            </div>
-            <!--搜索框over-->
-            <!--shopping start-->
-            <div class="shopping">
-                <a href=""><img src="images/shopping1.jpg"/></a>
-            </div>
-            <!--shopping over-->
+                <div class="logo">
+                    <a href="index.html"> <img src="images/logo.png" /></a>
+                </div>
+                <!--搜索框start-->
+                <div class="search">
+                    <form action="">
+                        <input type="text" value="" placeholder="搜索关键字"/>
+                        <button class="btn1" type="submit" ></button>
+                    </form>
+                </div>
+                <!--搜索框over-->
+                <!--shopping start-->
+                <div class="shopping">
+                    <a href=""><img src="images/shopping1.jpg"/></a>
+                </div>
+                <!--shopping over-->
         </div>
 
         <div class="nav layout">
@@ -396,7 +398,7 @@
 
             <ul class="nav_list">
                 <li><a href="">首页</a></li>
-                <li><a href="">热卖促销</a></li>
+                <li><a href="">热卖促销 <img src="images/H.gif"/></a></li>
                 <li><a href="">新品上市</a></li>
                 <li><a href="">精品服饰</a></li>
                 <li><a href="">美妆护理</a></li>
@@ -410,75 +412,28 @@
     </header>  
     <!-- header over -->
 
-    <div class="main">
-        <div class="layout">
-            <div class="tit">
-                <a href="">手机 / 数码 / 通信 / 配件 </a>&gt; <a href="">数码配件 </a>&gt; <a href="">其他 </a>&gt;
-                <span>乐光 智能蓝牙幻彩音响 LED闹钟蓝牙免提电话可...</span>
-            </div>
-            <div class="commodity">
-                <div class="left">
-                    <div class="msg">
-                        <p class="active"><img src="images/commodity6.jpg" alt=""></p>
-
-                        <p>
-                            <img src="images/commodity12.jpg" alt="">
-                        </p>
-                    
-                        <p><img src="images/commodity8.jpg" alt=""></p>
-                        <p><img src="images/commodity9.jpg" alt=""></p>
-                        <p><img src="images/commodity10.jpg" alt=""></p>
-                    </div>
-                    <ul>
-                        <li class="active"><img src="images/commodity1.jpg" alt=""></li>
-                        <li><img src="images/commodity2.jpg" alt=""></li>
-                        <li><img src="images/commodity3.jpg" alt=""></li>
-                        <li><img src="images/commodity4.jpg" alt=""></li>
-                        <li><img src="images/commodity5.jpg" alt=""></li>
-                    </ul>
-                </div>
-                <div class="right">
-                    <h3>乐光 智能蓝牙幻彩音响 LED闹钟蓝牙免提电话 可插内存卡</h3>
-                    <h4>集液晶显示时间 闹钟 蓝牙链接 音箱于一身</h4>
-                    <div class="price">
-                        <div class="price_l">
-                            <p>商城价:<span>￥345</span></p>
-                            <p>市场价:<s>￥399</s></p>
-                        </div>
-                        <div class="price_r">
-                            <div class="price_r1">
-                                <p>累计评价</p><span>0</span>
-                            </div>
-                            <div class="price_r2">
-                                <p>累计销售</p><span>882</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="peisong">
-                        <span>配 送:</span>
-                        <select><option>北京市</option></select>
-                        <select><option>包邮 ￥0</option></select>
-                    </div>
-                    <div class="col">
-                        <span>颜 色:</span>
-                        <div class="col_1">
-                            <img src="images/color.gif" alt="">
-                            <span>白色</span>
-                        </div>
-                    </div>
-                    <div class="quantity">
-                        <span>数量</span>
-                        <div>
-                            <a href=""></a> 
-                            <input type="text" />
-                            <a href=""></a> 
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- content start -->
+    <div class="tit layout">
+        <div class="category">
+            <a href="">全部结果 </a>&nbsp; &gt; &nbsp;
+            <a href="">家用电器 / 个户健康 </a>&nbsp; &gt; &nbsp; 
+            <div class="category_tit"><a href="">家用电器 / 个户健康 </a>&nbsp; &gt; &nbsp;
+                <ul class="category_menu">
+                    <li><a href="">生活电器</a></li>
+                    <li><a href="">大家电</a></li>
+                    <li><a href="">厨房电器</a></li>
+                    <li><a href="">个户健康</a></li>
+                    <li><a href="">足浴类</a></li>
+                </ul>
+            </div> 
+        </div>
+        <div class="clean">
+            <a href="">清空筛选条件</a>
         </div>
     </div>
 
+    <!-- content over -->
+    
     <!-- footer start --> 
     <div class="footer">
         <div class="footer_t">
@@ -536,21 +491,5 @@
     </div>
     <!-- footer over -->
 </body>
-<script type="text/javascript">
-    var ali = document.querySelector(".left").children[1].children;
-    var ap = document.querySelector(".msg").children;
-    
-    for(var i = 0; i < ali.length; i++){
-        ali[i].index = i;
-        ali[i].onmousemove = function(){
-            for(var j=0;j<ali.length;j++){
-                ali[j].className = "";
-                ap[j].className = "";
-            }
-            this.className = "active";
-            ap[this.index].className = "active";
-        }
-    }
-    
-</script>
+<script src="../js/libs/require.js" data-main="../js/myjs/shop_list.js"></script>
 </html>

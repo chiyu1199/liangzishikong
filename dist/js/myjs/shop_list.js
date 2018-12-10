@@ -1,0 +1,1 @@
+"use strict";require(["../js/libs/config.js"],function(){require(["jquery","swiper"],function(i,n){$(".nav_menu ul li").mouseover(function(){$(this).children("dl").css("display","block").parent().siblings().children("dl").css("display","none")}),$(".nav_menu ul li").mouseout(function(){$(this).children("dl").css("display","none")})})});

@@ -1,0 +1,402 @@
+{   
+    "code": 0,
+    "message": "ok",
+    "lid": "1542851861.421501089",
+    "tid": "10.118.14.15-83275-1542851861420-84110",
+    "result": {
+        "GetRecommend": {
+            "code": 0,
+            "message": "",
+            "description": "",
+            "data": [{
+                "attr_ext": {
+                    "custom_name": "小米USB-C电源适配器（65W）",
+                    "custom_summary": "多协议快充，可折叠插脚",
+                    "red_words": "【20-22日感恩节，限时特惠】"
+                },
+                "gid": 103268,
+                "iid": "0_103268_2",
+                "name": "小米USB-C电源适配器（65W）",
+                "pic_url": "http://img.youpin.mi-img.com/800_pic/102135_bgc11y4cc2l3.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 11900,
+                "summary": "多协议快充 / 可折叠插脚",
+                "url": "https://home.mi.com/shop/detail?gid=103268"
+            }, {
+                "attr_ext": {
+                    "custom_summary": "3D巨幕影院，隐形散热孔"
+                },
+                "gid": 103051,
+                "iid": "1_103051_2",
+                "name": "小米VR眼镜PLAY2",
+                "pic_url": "http://img.youpin.mi-img.com/800_pic/549_2lkbpmge3d79m.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 9900,
+                "summary": "舞龙布新材质，开放式手机舱，3D巨幕影院，隐形散热孔",
+                "url": "https://home.mi.com/shop/detail?gid=103051"
+            }, {
+                "attr_ext": {
+                    "custom_name": "小米VR一体机 超级玩家版",
+                    "custom_summary": "内含21款精选VR游戏",
+                    "red_words": "【10月23日10点上线预售，11月1日10点正式开售，预付100抵扣150】"
+                },
+                "gid": 104030,
+                "iid": "2_104030_2",
+                "name": "小米VR一体机 超级玩家版",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/3f345e990d051321449450e7d46128db.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 199900,
+                "summary": "内含21款总价700元精选VR游戏",
+                "url": "https://home.mi.com/shop/detail?gid=104030"
+            }, {
+                "attr_ext": {
+                    "custom_name": "小金智能折叠跑步机",
+                    "custom_summary": "跑得舒服不占地儿 免安装可折叠",
+                    "red_words": "【11.11重磅众筹来袭！跑得舒服 不占地儿】"
+                },
+                "gid": 104311,
+                "iid": "3_104311_2",
+                "name": "小金智能折叠跑步机",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/f19f4da4feb98545cbd69663559a656b.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 189900,
+                "summary": "悬空弹性跑板，真实路跑体验，互联网米家APP，免安装可折叠",
+                "url": "https://home.mi.com/shop/detail?gid=104311"
+            }, {
+                "attr_ext": {
+                    "custom_name": "样子爵士真皮沙发",
+                    "custom_summary": "头层牛皮，鸭毛填充，E0级环保",
+                    "price_tag": 1,
+                    "red_words": "千元价格，坐享万元级品质"
+                },
+                "gid": 104123,
+                "iid": "4_104123_2",
+                "name": "样子爵士真皮沙发",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/da80c9f524f4da67e6594d3d4c4428b6.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 129900,
+                "summary": "美洲头层牛皮，轻柔舒适坐感，E0级环保标准",
+                "url": "https://home.mi.com/shop/detail?gid=104123"
+            }, {
+                "attr_ext": {
+                    "custom_name": "小米净水器滤芯 PP棉"
+                },
+                "gid": 102290,
+                "iid": "5_102290_2",
+                "name": "小米净水器滤芯 PP棉",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/fdda01a8624a855666a2b01e0af81792.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 5500,
+                "summary": "拦截5微米以上大颗粒，有效滤除泥沙颗粒、混浊物、铁锈等",
+                "url": "https://home.mi.com/shop/detail?gid=102290"
+            }, {
+                "attr_ext": {
+                    "custom_summary": "有效去除PM2.5及甲醛",
+                    "red_words": "11.19-11.22感恩优惠"
+                },
+                "gid": 102958,
+                "iid": "6_102958_2",
+                "name": "空气净化器滤芯 除甲醛增强版",
+                "pic_url": "http://img.youpin.mi-img.com/800_pic/302_ca8b9c3fb89586520587a9a64311b0a7.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 15900,
+                "summary": "小米空气净化器、小米空气净化器2、米家空气净化器pro通用，阻挡致病细菌，有效去除PM2.5，有效去除甲醛",
+                "url": "https://home.mi.com/shop/detail?gid=102958"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "滋养修护润唇膏",
+                    "custom_summary": "滋润修护,轻薄不油,安心护唇"
+                },
+                "gid": 104413,
+                "iid": "7_104413_2",
+                "name": "水肌美滋养修护润唇膏",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/ffcdef5ef0a3e5a5a3b6758cf713e328.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 3500,
+                "summary": "滋润修护,轻薄不油,安心护唇",
+                "url": "https://home.mi.com/shop/detail?gid=104413"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "拓牛智能垃圾桶",
+                    "custom_summary": "自动封口换袋，感应开盖"
+                },
+                "gid": 104150,
+                "iid": "8_104150_2",
+                "name": "拓牛智能垃圾桶",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/db0470742495ab53374f827d048a51bb.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 29900,
+                "summary": "自动封口换袋，感应开盖，一键常开，持久续航",
+                "url": "https://home.mi.com/shop/detail?gid=104150"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "运动休闲板鞋",
+                    "custom_summary": "橡胶大底，特制楦头",
+                    "price_tag": 1
+                },
+                "gid": 102610,
+                "iid": "9_102610_2",
+                "name": "FREETIE运动休闲板鞋",
+                "pic_url": "http://img.youpin.mi-img.com/800_pic/dd53271f0d2a4538dd0c80846ce974c3.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 12900,
+                "summary": "橡胶大底，加厚EVA鞋垫，特制楦头",
+                "url": "https://home.mi.com/shop/detail?gid=102610"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "小沐智能马桶盖 AI版",
+                    "custom_summary": "即热畅洗，疏水自洁"
+                },
+                "gid": 104351,
+                "iid": "10_104351_2",
+                "name": "小沐智能马桶盖 AI版",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/0be76b77ea44886cdd5e25285f97cc29.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 129900,
+                "summary": "AI控制中心，即热畅洗，疏水自洁，IPX4防水",
+                "url": "https://home.mi.com/shop/detail?gid=104351"
+            }, {
+                "attr_ext": {
+                    "custom_name": "样子拼图电视柜",
+                    "custom_summary": "分区收纳 极简设计",
+                    "price_tag": 1,
+                    "red_words": "样子感恩回馈，凡购买电视柜、组合沙发、茶几均可享，单笔订单满1000元-100元；满3000元-400元；满4000元-500元"
+                },
+                "gid": 104414,
+                "iid": "11_104414_2",
+                "name": "样子拼图电视柜",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/6fd8506509714b0ef5d9eb4a5fa3ad32.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 129900,
+                "summary": "分区收纳 极简设计 给生活更多留白",
+                "url": "https://home.mi.com/shop/detail?gid=104414"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "大白面盆抽取龙头",
+                    "custom_summary": "大白面盆抽取龙头",
+                    "price_tag": 1,
+                    "red_words": "【热卖预售】现在购买，预计12月1号开始发货"
+                },
+                "gid": 104401,
+                "iid": "12_104401_2",
+                "name": "大白面盆抽取龙头",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/0f4532b7684e42238929367bdf62fbc7.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 29900,
+                "summary": "创新漱口水柱，全方位抽洗，两种水花模式",
+                "url": "https://home.mi.com/shop/detail?gid=104401"
+            }, {
+                "attr_ext": {
+                    "custom_summary": "对流式加热，通电即热，  无感静音，双重安装保护",
+                    "red_words": "【11.21-11.23黑五限时特惠，立省20元！】"
+                },
+                "gid": 101089,
+                "iid": "13_101089_2",
+                "name": "智米电暖器",
+                "pic_url": "https://shop.io.mi-img.com/app/shop/img?id=shop_9461ab5e102c7a96596bc85fccb8eb92.jpeg",
+                "price": 24900,
+                "summary": "对流式加热，通电即热，无感静音，双重安装保护",
+                "url": "https://home.mi.com/shop/detail?gid=101089"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "火候多功能刀",
+                    "custom_summary": "十五种功能，国际殊荣团队设计"
+                },
+                "gid": 104324,
+                "iid": "14_104324_2",
+                "name": "火候多功能刀",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/ab43a622b2a31e85340b33a53a532ee1.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 14900,
+                "summary": "设计精美，15种功能，经久耐用，小巧便捷",
+                "url": "https://home.mi.com/shop/detail?gid=104324"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "番茄派党参艾草足贴",
+                    "custom_summary": "排湿驱杂,暖足畅身,调养身体"
+                },
+                "gid": 104074,
+                "iid": "15_104074_2",
+                "name": "番茄派党参艾草足贴",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/3a5a851808159701fdb78d83b3ab82af.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 4900,
+                "summary": "排湿驱杂,暖足畅身,调养身体",
+                "url": "https://home.mi.com/shop/detail?gid=104074"
+            }, {
+                "attr_ext": {
+                    "custom_name": "拓牛垃圾袋（6盒装）",
+                    "custom_summary": "全优材料，无断点设计，强韧承重"
+                },
+                "gid": 103522,
+                "iid": "16_103522_2",
+                "name": "拓牛垃圾袋（6盒装）",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/25e563b0d3e5b1764c62b94b4bde7ef0.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 6900,
+                "summary": "全优材料，无断点设计，强韧承重，轻松更换",
+                "url": "https://home.mi.com/shop/detail?gid=103522"
+            }, {
+                "attr_ext": {
+                    "custom_name": "8H成人健康护脊床垫MH",
+                    "custom_summary": "偏硬睡感更护脊，进口黄麻更环保",
+                    "price_tag": 1
+                },
+                "gid": 104302,
+                "iid": "17_104302_2",
+                "name": "8H成人健康护脊床垫MH",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/b0d8064911a27d1a62a382ebe271539b.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 169900,
+                "summary": "偏硬睡感，层层护脊，环保黄麻，分区承托",
+                "url": "https://home.mi.com/shop/detail?gid=104302"
+            }, {
+                "attr_ext": {
+                    "custom_name": "铜师傅《复仇者联盟》系列全铜公仔",
+                    "custom_summary": "正版授权，黄铜材质，手工制作",
+                    "price_tag": 1
+                },
+                "gid": 104393,
+                "iid": "18_104393_2",
+                "name": "铜师傅漫威《复仇者联盟》系列全铜公仔",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/05c1cebb7acf06dc1ae8e7b017fca3a5.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 36900,
+                "summary": "正版授权，黄铜材质，手工制作，英雄归来",
+                "url": "https://home.mi.com/shop/detail?gid=104393"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "三合一旅行夹克（情侣款）",
+                    "custom_summary": "防风防雨，90%鸭绒，透气干爽"
+                },
+                "gid": 104121,
+                "iid": "19_104121_2",
+                "name": "Uleemark三合一旅行夹克（情侣款）",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/6423c3c1d1649c45b2b64cb37d9ea822.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 41900,
+                "summary": "防风防雨，90%鸭绒，透气干爽，可拆卸内胆",
+                "url": "https://home.mi.com/shop/detail?gid=104121"
+            }, {
+                "attr_ext": {
+                    "custom_name": "铜师傅好运铜葫芦",
+                    "custom_summary": "优质黄铜，PVD镀金色处理",
+                    "red_words": "一个小摆件 生活大不同"
+                },
+                "gid": 104341,
+                "iid": "20_104341_2",
+                "name": "铜师傅好运铜葫芦",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/f3a07d93b54d18368dffa0aa976ccae3.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 2900,
+                "summary": "优质黄铜，PVD镀金色处理，小巧精致，生活美学饰品",
+                "url": "https://home.mi.com/shop/detail?gid=104341"
+            }, {
+                "attr_ext": {
+                    "custom_name": "小米短袖T恤 两件装",
+                    "custom_summary": "精梳棉，适合多场景穿着，精选两色"
+                },
+                "gid": 103036,
+                "iid": "21_103036_2",
+                "name": "小米短袖T恤 两件装",
+                "pic_url": "http://img.youpin.mi-img.com/800_pic/101368_08cdec577a64cebc1824fdb32ea9b9b4.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 3990,
+                "summary": "精梳棉，适合多场景穿着，精选两色",
+                "url": "https://home.mi.com/shop/detail?gid=103036"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "火候复合钢刀5件套",
+                    "custom_summary": "品质钢材,轻奢设计,精工砺刃"
+                },
+                "gid": 104370,
+                "iid": "22_104370_2",
+                "name": "火候复合钢刀5件套",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/057763f832c95f0a9063abf3299939e1.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 39900,
+                "summary": "高档刀常用钢材，珍贵黑檀木手柄",
+                "url": "https://home.mi.com/shop/detail?gid=104370"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "弹力织物运动腰带",
+                    "custom_summary": "柔软微弹，松紧自如，真皮加固"
+                },
+                "gid": 104397,
+                "iid": "23_104397_2",
+                "name": "七面弹力织物运动腰带",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/c0b4d2dc30beb36cb3fec05fe5d92237.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 4900,
+                "summary": "柔软微弹，松紧自如，双环合金扣，真皮加固",
+                "url": "https://home.mi.com/shop/detail?gid=104397"
+            }, {
+                "attr_ext": {
+                    "custom_name": "1MORE Spearhead VR电竞头戴式耳机",
+                    "custom_summary": "7.1 虚拟环绕立体声系统/50mm 磁悬浮同步振动单元"
+                },
+                "gid": 102926,
+                "iid": "24_102926_2",
+                "name": "1MORE Spearhead VR电竞头戴式耳机",
+                "pic_url": "http://img.youpin.mi-img.com/800_pic/101792_2wvn3wnqc1ts8.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 69900,
+                "summary": "7.1 虚拟环绕立体声系统/50mm 磁悬浮同步振动单元/ENC双麦克风环境降噪技术",
+                "url": "https://home.mi.com/shop/detail?gid=102926"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "可微波硅胶热水袋",
+                    "custom_summary": "3分钟速热，冷热两用，安全防漏",
+                    "price_tag": 1
+                },
+                "gid": 104026,
+                "iid": "25_104026_2",
+                "name": "佐敦朱迪可微波硅胶热水袋",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/c4435df73b7fe181fc3c3b3ae5618fe6.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 3500,
+                "summary": "3分钟速热，冷热两用，安全防漏，保温时间长",
+                "url": "https://home.mi.com/shop/detail?gid=104026"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "负离子速干电吹风",
+                    "custom_summary": "大风量速干/德国IF设计大奖/"
+                },
+                "gid": 101963,
+                "iid": "26_101963_2",
+                "name": "素士负离子速干电吹风",
+                "pic_url": "https://shop.io.mi-img.com/app/shop/img?id=shop_7caaad74c43609896070d87640192893.jpeg",
+                "price": 19900,
+                "summary": "大风量速干/德国IF设计大奖/全铝合金上机身",
+                "url": "https://home.mi.com/shop/detail?gid=101963"
+            }, {
+                "attr_ext": {
+                    "custom_name": "小米MIX3",
+                    "custom_summary": "滑盖全面屏，曲面彩色陶瓷机身",
+                    "price_tag": 1
+                },
+                "gid": 104049,
+                "iid": "27_104049_2",
+                "name": "小米MIX3",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/4116c792c28ff4e4f3c10f9d7d9f076f.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 329900,
+                "summary": "滑盖全面屏 四曲面彩色陶瓷机身 前后旗舰AI双摄 10W无线充电 10GB大内存 故宫特别版",
+                "url": "https://home.mi.com/shop/detail?gid=104049"
+            }, {
+                "attr_ext": {
+                    "custom_name": "米家电水壶",
+                    "custom_summary": "快速沸腾，304不锈钢内胆",
+                    "red_words": "【11.11同价，99包邮】"
+                },
+                "gid": 102730,
+                "iid": "28_102730_2",
+                "name": "米家电水壶",
+                "pic_url": "http://img.youpin.mi-img.com/800_pic/100235_df04a7b88dd0b0029db7e6701b04b295.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 9900,
+                "summary": "快速沸腾，304不锈钢内胆，1.5L大容量，双层防烫,13cm大口径",
+                "url": "https://home.mi.com/shop/detail?gid=102730"
+            }, {
+                "attr_ext": {
+                    "consignor": 65,
+                    "custom_name": "轻派超薄石英表（情侣款）",
+                    "custom_summary": "蓝宝石玻璃镜片，原装进口机芯"
+                },
+                "gid": 104405,
+                "iid": "29_104405_2",
+                "name": "TwentySeventeen轻派超薄石英表（情侣款）",
+                "pic_url": "https://img.youpin.mi-img.com/800_pic/c3cff48670ee365b625a10ec8a65c38a.png@base@tag=imgScale&h=350&w=350&et=1&eth=480&etw=480&etc=FFFFFF",
+                "price": 17900,
+                "summary": "5.5mm纤薄机身，简洁无印设计，蓝宝石玻璃镜片，原装进口机芯",
+                "url": "https://home.mi.com/shop/detail?gid=104405"
+            }]
+        }
+    },
+    "timestamp": 1542851861
+}

@@ -43,16 +43,17 @@
 .floor_pic_r dl:nth-child(4n){margin-right:0;}
 .floor_pic_r dl a{display: block; width:227px; height:270px; margin:5px; text-align: center;}
 .floor_pic_r dl a dt{width:227px; height:190px; text-align:center; margin-bottom:20px;}
-.floor_pic_r dl a dt img{vertical-align:middle;}
+.floor_pic_r dl a dt img{vertical-align:middle;width:200px; height:190px;}
 .floor_pic_r dl a dt span{display:inline-block; width:0; height:100%; vertical-align:middle;}
 .floor_pic_r dl a dd p{width:200px; white-space: nowrap;overflow: hidden; text-overflow: ellipsis; margin: 0 auto;}
 
-.floor_pic_r dl a {border:1px solid #f00;}
-.floor_pic_r dl a:hover{text-decoration: none; color:#666;}
+.floor_pic_r dl a {border:1px solid #fff; transition:border 1s; }
+.floor_pic_r dl a:hover{text-decoration: none; color:#666; border-color:#f00;}
 .floor_pic_r dl a dd span{color:#f00;}
 
 .floor_nav{width:38px; position:fixed; left:14%; top:50%; margin-top:-253px; border:1px solid #999; background:#fff; display: none;}
 .floor_nav li{height:38px;font-size:12px; border-bottom:1px solid #999; text-align: center;}
-.floor_nav li:hover{cursor: pointer; background:#eee; opacity: 0.8;}
+.floor_nav li:hover{cursor: pointer; color:#f00;}
+.floor_nav li p{line-height: 10px;}
 .floor_nav .last{border-bottom:none;}
-.floor_nav .active{background:#848484; color:#fff; z-index: 10;}
+.floor_nav .active{background:#848484; color:#fff;}

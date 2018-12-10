@@ -44,6 +44,34 @@ require(["../js/libs/config.js"], function(){
 			},
 		});
 
+		//楼层数据渲染
+		$(function(){
+			$.ajax({
+				url: "../data/index/home.json",
+				data: "data",
+				success: function (res) {
+					let homeData = res.data.homepage;
+					let good_str = '';
+					for (let i = 5; i < homeData.floors.length; i++) {
+						let floors = homeData.floors[i].data.items;
+						$.each(floors, function (i, ele) {
+							$(".floor_pic_r").html(
+								good_str += `<dl>
+												<a href="">
+													<dt><img src="${ele.pic_url}" /><span></span></dt>
+													<dd>
+														<p>${ele.name}</p>
+														<span>${ele.price_min/100}</span>
+													</dd>
+												</a>
+											</dl>`
+							)
+						})
+					}
+				}
+			})	
+		})
+
 
 		
 	})

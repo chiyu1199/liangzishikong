@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>商品详情</title>
     <link rel="stylesheet" href="../css/css.css">
     <link rel="stylesheet" href="../css/detail.css">
 </head>
 <body>
     <!-- header start -->
-    <header>
+    <header>    
         <div class="header_t">
             <div class="layout">
                 <div class="language">
@@ -22,8 +22,8 @@
                     </select>
                 </div>
                 <div class="login">
-                    <a href="#" style="color:red;">Hi.请登录</a>
-                    <a href="#">免费注册</a>
+                    <a href="login.html" style="color:red;">Hi.请登录</a>
+                    <a href="registered.html">免费注册</a>
                 </div>
                 <div class="header_r">
                     <ul>
@@ -37,7 +37,7 @@
 
         <div class="header_c layout">
             <div class="logo">
-                <a href="#"> <img src="images/logo.png" /></a>
+                <a href="index.html"> <img src="images/logo.png" /></a>
             </div>
             <!--搜索框start-->
             <div class="search">
@@ -49,7 +49,7 @@
             <!--搜索框over-->
             <!--shopping start-->
             <div class="shopping">
-                <a href=""><img src="images/shopping1.jpg"/></a>
+                <a href="shop_car.html"><img src="images/shopping1.jpg"/></a>
             </div>
             <!--shopping over-->
         </div>
@@ -417,7 +417,54 @@
                 <span>乐光 智能蓝牙幻彩音响 LED闹钟蓝牙免提电话可...</span>
             </div>
             <div class="commodity">
-                <div class="left">
+                <div class="magnifier" id="magnifier1">
+                    <div class="magnifier-container">
+                        <div class="images-cover"></div>
+                        <!--当前图片显示容器-->
+                        <div class="move-view"></div>
+                        <!--跟随鼠标移动的盒子-->
+                    </div>
+                    <div class="magnifier-assembly">
+                        <!-- <div class="magnifier-btn">
+                            <span class="magnifier-btn-left">&lt;</span>
+                            <span class="magnifier-btn-right">&gt;</span>
+                        </div> -->
+                        <!--按钮组-->
+                        <div class="magnifier-line">
+                            <ul class="clearfix animation03">
+                                <li>
+                                    <div class="small-img">
+                                        <img src="../pages/images/detail/image1.jpg" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="../pages/images/detail/image2.jpg" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="../pages/images/detail/image3.jpg" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="../pages/images/detail/image4.jpg" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="../pages/images/detail/image5.jpg" />
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--缩略图-->
+                    </div>
+                    <div class="magnifier-view"></div>
+                    <!--经过放大的图片显示容器-->
+                </div>
+                <!-- <div class="left">
                     <div class="msg">
                         <div class="active"><img src="images/commodity6.jpg" alt=""></div>
                         <div><img src="images/commodity7.jpg" alt=""></div>
@@ -432,7 +479,7 @@
                         <li><img src="images/commodity4.jpg" alt=""></li>
                         <li><img src="images/commodity5.jpg" alt=""></li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="right">
                     <h3>乐光 智能蓝牙幻彩音响 LED闹钟蓝牙免提电话 可插内存卡</h3>
                     <h4>集液晶显示时间 闹钟 蓝牙链接 音箱于一身</h4>
@@ -457,18 +504,20 @@
                     </div>
                     <div class="col">
                         <span>颜 色:</span>
-                        <div class="col_1">
-                            <img src="images/color.gif" alt="">
-                            <span>白色</span>
-                        </div>
+                        <a href="">白色</a>
                     </div>
                     <div class="quantity">
-                        <span>数量</span>
-                        <div>
-                            <a href=""></a> 
-                            <input type="text" />
-                            <a href=""></a> 
+                        <span>数 量:</span>
+                        <div class="num">
+                            <a href="" class="icon icons_minus"></a> 
+                            <input class="num_input" type="text" value="1" />
+                            <a href="" class="icon icons_add"></a> 
                         </div>
+                        <div class="inventory">剩余库存:99</div>
+                    </div>
+                    <div>
+                        <button class="buy_now">立即购买</button>
+                        <button class="add_car">加入购物车</button>
                     </div>
                 </div>
             </div>
@@ -532,20 +581,5 @@
     </div>
     <!-- footer over -->
 </body>
-<script type="text/javascript">
-    var ali = document.querySelector(".left").children[1].children;
-    var ap = document.querySelector(".msg").children;
-    
-    for(var i = 0; i < ali.length; i++){
-        ali[i].index = i;
-        ali[i].onmousemove = function(){
-            for(var j=0;j<ali.length;j++){
-                ali[j].className = "";
-                ap[j].className = "";
-            }
-            this.className = "active";
-            ap[this.index].className = "active";
-        }
-    }
-</script>
+<script src="../js/libs/require.js" data-main="../js/myjs/detail.js"></script>
 </html>

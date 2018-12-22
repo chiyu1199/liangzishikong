@@ -7,7 +7,7 @@
     <title>Document</title>  
     <link rel="stylesheet" href="../css/css.css">
     <link rel="stylesheet" href="../css/shop_list.css">
- 
+    
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="login">
                     <a href="login.html" style="color:red;">Hi.请登录</a>
-                    <a href="registered.html">免费注册</a>
+                    <a href="register.html">免费注册</a>
                 </div>
                 <div class="header_r">
                     <ul>
@@ -51,7 +51,7 @@
                 <!--搜索框over-->
                 <!--shopping start-->
                 <div class="shopping">
-                    <a href=""><img src="images/shopping1.jpg"/></a>
+                    <a href="shop_car.html"><img src="images/shopping1.jpg"/></a>
                 </div>
                 <!--shopping over-->
         </div>
@@ -431,6 +431,102 @@
             <a href="">清空筛选条件</a>
         </div>
     </div>
+    <div class="filter layout">
+        <div class="filter_t">
+            <div class="filter_t_l">商品品牌</div>
+            <div class="filter_t_c">
+                <ul>
+                    <li><a href=""><img src="images/shop_list/Brand_logo01.jpg" alt=""><span>飞利浦/PHILIPS</span></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo02.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo03.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo04.png" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo05.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo06.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo07.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo08.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo09.png" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo10.png" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo11.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo12.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo13.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo14.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo15.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo16.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo17.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo18.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/shop_list/Brand_logo19.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="filter_t_r">
+                <button>多选<span> +</span></button>
+                <button>更多<span> +</span></button>
+            </div>
+        </div>
+        <div class="filter_b">
+            <div class="filter_b_l">价格</div>
+            <div class="filter_b_c">
+                <a href="">66.0-3510.0</a>
+                <a href="">3511.0-6954.0</a>
+                <a href="">6954.0-10399.0</a>
+            </div>
+            <div class="filter_b_r">
+                <input type="text"> - <input type="text">
+                <button>确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- main start -->
+    <div class="main layout">
+        <div class="main_l">
+            <h4>推荐热卖</h4>
+            <div class="main_l_list">
+                <dl>
+                    <a href="">
+                        <img src="images/shop_list/shop_list01.png" alt="">
+                        <p>Punos PS-26无线家庭影院回音壁客厅电视音箱KTV家用蓝</p>
+                    </a>
+                    <span>￥1895</span>
+                </dl> 
+            </div>
+        </div>
+        <div class="main_r">
+            <div class="main_r_t">
+                <ul>
+                    <li class="bg"><a href="">综合</a></li>
+                    <li><a href="">价格</a></li>
+                    <li><a href="">评价</a></li>
+                    <li><a href="">新品</a></li>
+                </ul>
+                <div class="main_r_t_total">
+                    <div class="total">
+                        共<span>80</span>个商品
+                    </div>
+                    <div class="page">
+                        <a href="">&lt;</a>
+                        <span style="color:#f00;">1</span>/<span>4</span>
+                        <a href="">&gt;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main_shoplist">
+                <dl>
+                    <a href=""><img src="images/shop_list/shop_list02.jpg" alt=""></a>
+                    <button>加入购物车</button>
+                    <p>￥10399<span>￥11199</span></p>
+                    <dd><a href="">TCL 65P3 65英寸 曲面 4K 智能平板电视 HDR显示技术 超窄金属边框</a></dd>
+                </dl>
+            </div>
+            <!-- pagination start-->
+            <div class="pagWarp" id="pageWarp">
+                <span id="btnL">上一页</span>
+                <ul id="page">
+                </ul>
+                <span id="btnR">下一页</span>
+            </div>
+            <!-- Pagination over -->
+        </div>
+    </div>
+    <!-- main over -->
 
     <!-- content over -->
     
@@ -444,7 +540,7 @@
                 <li><a href=""><img src="images/footer_04.jpg">样品采集，万千信赖</a></li>
             </ul>
         </div>
-        <div class="footer_c layout">
+        <div class="footer_c layout" style="padding: 26px 0">
             <dl>
                 <dt>售后服务</dt>
                 <dd><a href="">退换货细则</a></dd>

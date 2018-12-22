@@ -48,7 +48,7 @@ header a:hover{text-decoration:none; color:red;}
 
 /* footer */
 .footer{height:452px;}
-.footer_t {background:#efefef; height:53px; padding: 26px 0;}
+.footer_t {background:#efefef; height:105px; padding: 26px 0; box-sizing: border-box; }
 .footer_t ul li{float:left; width:306px; height:53px; line-height: 53px; font-size: 18px; font-weight: bold;}
 .footer_t ul li img{float:left; margin: 0 5px 0 45px;}
 .footer_t ul li a:hover{text-decoration: none; color:#666;}

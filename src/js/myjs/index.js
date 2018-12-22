@@ -34,22 +34,26 @@ require(["../js/libs/config.js"], function(){
 			
 		//swiper
 		var mySwiper = new Swiper('.swiper-container', {
-			autoplay:{
+			effect : 'fade',
+			loop : true,
+			autoplay : {
 				delay:1500,
 				disableOnInteraction: false
 			},
-			pagination: {
+			pagination : {
 			el: '.swiper-pagination',
 			clickable: true,
 			},
 		});
+		$(".swiper-pagination-bullet").hover(function() {
+			$(this).click(); //鼠标划上去之后，自动触发点击事件来模仿鼠标划上去的事件
+		})
 
 		//楼层数据渲染
 		$(function(){
 			$.ajax({
 				url: "../data/index/home.json",
-				data: "data",
-				success: function (res) {
+				success: function(res){
 					let homeData = res.data.homepage;
 					let good_str = '';
 					for (let i = 5; i < homeData.floors.length; i++) {

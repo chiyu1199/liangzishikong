@@ -1,13 +1,13 @@
 a:hover{text-decoration: none;}
 
 .nav_menu{display: none;}
-.tit{height:60px; padding:20px 0;
+.tit{height:20px; padding:20px 0;
     .category{float:left;
         a{color:#333;}
         a:hover{color:#f00;}
         .category_tit{float:right; width:200px;
-            >a{width:135px; height:25px; text-align: center; border:1px solid #fff; float:left; }
-            .category_menu{ width:340px; height:70px; border:1px solid #f00; background:#fff; margin-top:6px; display:none;
+            >a{width:135px; height:25px; text-align: center; border:1px solid #fff; float:left; position: absolute; z-index: 10;}
+            .category_menu{ width:340px; height:70px; border:1px solid #f00; background:#fff; margin-top:6px; display:none; position: absolute;
                 li{float:left; margin:10px 40px 0 10px;}
             }
             &:hover .category_menu{ display:block;}
@@ -16,3 +16,145 @@ a:hover{text-decoration: none;}
     }
     .clean{float:right;}
 }
+.filter{border:1px solid #ccc;
+    .filter_t{height:65px; border-bottom:1px #ccc solid;
+        .filter_t_l{width:115px; height:50px; border-right:1px solid #ccc; float:left; text-align: center;padding-top:15px; background:#f7f7f7;}
+        .filter_t_c{width:925px; height:65px; float:left; overflow: hidden;
+            ul{padding:5px; height:55px;
+                li{width:103px; height:43px; padding: 5px; border:1px solid #ccc; float:left;  margin:0 10px 10px 10px;
+                    img{width:103px; height:43px;}
+                    span{width:113px; height:53px; border:2px solid #E23435;display: inline-block;display: none;}
+                }
+            }
+        }
+        .filter_t_r{padding-top:5px; 
+            button{background:#fff; border:1px #ccc solid;
+                span{color:#999;}
+                &:hover span{color:#f00;}
+            }
+        }
+    }
+    .filter_b{height:35px;
+        .filter_b_l{width:115px; height:35px; border-right:1px solid #ccc; float:left; text-align: center; line-height:35px; background:#f7f7f7;}
+        .filter_b_c{padding-left:20px; width:890px; height:35px; line-height: 35px; float:left;
+            a{margin-right:20px;}
+        }
+        .filter_b_r{float:left; padding-top:5px;
+            input{width:40px; outline-color: #f00;}
+            button{background:#fff; border:1px #ccc solid; color:#999;
+                &:hover{color:#f00;}
+            }
+        }
+    }
+}
+
+.main{ margin-top:30px; overflow: hidden;
+    .main_l{width:170px; border:1px solid #ccc; float:left;
+        h4{height:40px; line-height: 40px; padding-left:15px; background:#f7f7f7; border-bottom:1px solid #ccc;}
+        dl{ margin:10px 5px; width:160px;
+            img{width:160px; height:160px;}
+            p{
+                overflow : hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+            span{color:#f00; font-size:18px;}
+        }
+    }
+    .main_r{padding-bottom: 100px; float:left; margin-left:8px; position: relative;
+        .main_r_t{
+            height:40px; background:#EAEAEA; padding:5px; box-sizing: border-box; font-size:12px;
+            ul{float:left;
+                li{float:left; width:50px; height:28px; line-height:28px; text-align: center; border:1px solid #ccc; background:#fff;
+                    &:hover{border-color:#f00;}
+                }
+                .bg{background:#E23435; border-color:#f00;
+                    a{color:#fff;}
+                }
+            }
+            .main_r_t_total{float:right; width:150px; height:30px; line-height: 30px;
+                .total{float:left; color:#666;}
+                .page{float:right; line-height:30px;
+                    a{display:inline-block;width:20px; height:20px;  background:#fff; margin:5px; text-align: center; line-height: 20px;}
+                }
+            }
+        }
+        //列表
+        .main_shoplist{width:1045px; float:left;
+            dl{width:209px; height:350px; padding:5px; border:1px solid #fff; box-sizing: border-box; float:left;
+                img{width:199px; height:199px;}
+                button{width:160px; height:30px; color:#fff; background:#E23435; border:none; border-radius: 5px; opacity: 0.8; margin:5px 15px; outline: none;
+                    &:hover{opacity: 1;}
+                }
+                p{ color:#f00; font-size:18px; margin:10px 0;
+                    span{text-decoration: line-through; color:#999;font-size:12px; margin-left:15px;}
+                }
+                dd{
+                    overflow : hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+                &:hover{border-color:#f00;}
+            }
+        }
+        // 分页
+        .pagWarp{
+            height: 40px;
+            // box-shadow: 0 2px 5px #b6b6b6;
+            border-radius: 2px;
+            position: absolute;
+            right:20px;
+            bottom:30px;
+        }
+        #btnL,#btnR{
+            height:38px;
+            width:70px;
+            text-align: center;
+            line-height: 40px;
+            border:1px #ccc solid;
+            cursor: pointer;
+            &:hover{
+                color: #fff;
+                font-size: 16px;
+                background:#f00;}
+        }
+        #btnL{
+            float: left;
+        }
+        #btnR{
+            float: right;             
+        }
+        .pagWarp ul{        
+            height: 40px;
+            margin: 0 auto;
+            float: left;
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .pagWarp ul li{
+            width:38px;
+            height:38px;
+            float: left;
+            text-align: center;
+            line-height: 40px;
+            margin:0 5px;
+            border:1px #ccc solid;
+            &:hover{
+                color: #fff;
+                font-size: 16px;
+                background:#f00;}
+        }
+        .active{
+            color: #fff;
+            font-size: 16px;
+            background:#f00;
+        }
+
+    }
+}
+
